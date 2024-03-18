@@ -1,0 +1,8 @@
+{
+    "toyboxes": {
+        "github.com/smwhr/tinta": "0"
+    },
+    "installed": {
+        "github.com/smwhr/tinta": "0.9.1"
+    }
+}

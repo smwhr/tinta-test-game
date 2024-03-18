@@ -1,0 +1,7 @@
+name=playdate-tinta
+author=smwhr
+description=A small game for the Playdate using the Tinta (ink-lua) engine
+bundleID=net.smwhr.in-case-of-danger
+version=0.1.0
+buildNumber=2
+imagePath=images/launcher/
