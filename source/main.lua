@@ -62,6 +62,10 @@ end
 
 local c = 0
 function continueStory()
+    if story == nil then
+        print("Story not ready yet")
+        return
+    end
     local i = 0
     repeat
         i = i + 1
@@ -75,7 +79,6 @@ function continueStory()
             drawText(currentText, currentTags)
             image:draw(0, imagePosition)
         end
-        print("Loop " .. i )
         c = (i * 30) % 360
         coroutine.yield()
     until not story:canContinue()
